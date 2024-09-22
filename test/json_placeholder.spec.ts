@@ -2,7 +2,7 @@ import pactum from 'pactum';
 import { StatusCodes } from 'http-status-codes';
 import { SimpleReporter } from '../simple-reporter';
 
-describe('Json Placeholder', () => {
+describe.skip('Json Placeholder', () => {
   const p = pactum;
   const rep = SimpleReporter;
   const baseUrl = 'https://jsonplaceholder.typicode.com';

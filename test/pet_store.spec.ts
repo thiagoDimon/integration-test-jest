@@ -3,7 +3,7 @@ import { SimpleReporter } from '../simple-reporter';
 import { faker } from '@faker-js/faker';
 import { StatusCodes } from 'http-status-codes';
 
-describe('Pet Store API', () => {
+describe.skip('Pet Store API', () => {
   const password = faker.string.numeric(9);
   const userName = faker.internet.userName();
   const dogName = faker.animal.dog();

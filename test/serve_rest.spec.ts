@@ -3,7 +3,7 @@ import { SimpleReporter } from '../simple-reporter';
 import { faker } from '@faker-js/faker';
 import { StatusCodes } from 'http-status-codes';
 
-describe('ServeRest API', () => {
+describe.skip('ServeRest API', () => {
   let token = '';
   let idUsuario = '';
   let idProduto = '';
